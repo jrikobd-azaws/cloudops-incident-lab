@@ -108,7 +108,7 @@ The monitoring setup includes four core alarm types:
 
 The lab includes CloudWatch alarms for host health, CPU pressure, high memory, and application error activity.
 
-![Configured CloudWatch alarms](assets/screenshots/cloudwatch-alarms/06-Configured-4-alarms.png)
+![Configured CloudWatch alarms](assets/screenshots/cloudwatch-alarms/06-configured-4-alarms.png)
 
 This monitoring layer supports the incident scenarios documented later in the repository.
 

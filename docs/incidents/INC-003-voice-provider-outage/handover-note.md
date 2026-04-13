@@ -1,24 +1,48 @@
-# Triage Notes - INC-003
+# Handover Note - INC-003
 
-## Initial signal
-Voice-service degradation was simulated through provider-style SIP failure patterns, including registration failures and `503 Service Unavailable` responses.
+## Current state
 
-## Immediate checks
-- Reviewed voice dependency log output
-- Checked for `503`, registration failure, and call-establishment failure patterns
-- Validated local platform health with `curl http://127.0.0.1:5000/health`
-- Confirmed `voice-api` remained active using `systemctl status`
+**Resolved.** The simulated voice-provider dependency failure has been validated and documented. The EC2 host, `voice-api` service, and `/health` endpoint remained healthy throughout the exercise.
 
-## Key observations
-- Repeated provider-style registration failures were present
-- Upstream `503 Service Unavailable` messages were visible
-- Outbound call-establishment failure was visible in the simulated logs
-- The EC2 host remained healthy
-- The `voice-api` service remained active
-- The `/health` endpoint continued to return healthy responses
+## Incident summary
 
-## Fault-domain assessment
-This was a dependency/service-layer failure, not a host, operating system, or local application outage. The correct fault domain was the upstream voice-provider path.
+A controlled voice-provider / SIP dependency outage was simulated to test fault-domain isolation, platform validation, and dependency-focused escalation handling.
 
-## Why this mattered
-The incident demonstrates why operations teams must avoid treating every degraded service event as a server failure. In this case, local platform health checks showed that restarting the service would not have addressed the dependency issue.
+The event produced provider-style registration failures, `503 Service Unavailable` responses, and outbound call-establishment failures in the simulated voice logs, while the local platform continued to operate normally.
+
+## Business impact
+
+- No real customer-facing outage occurred
+- This was a controlled validation of dependency-side service degradation handling
+- The incident demonstrated loss of upstream voice-service functionality while internal platform health remained normal
+
+## Actions completed
+
+- created the simulated provider-outage log
+- generated repeated provider-style SIP failure events
+- reviewed dependency log evidence for registration failure and `503` patterns
+- validated local platform health with `/health`
+- confirmed `voice-api` remained active under `systemd`
+- documented dependency-focused assessment in Jira
+- added vendor/dependency-style escalation context
+- captured evidence for repository documentation
+
+## Outstanding actions
+
+- consider whether future monitoring should include a clearer dependency-health signal
+- refine dependency/outage runbook guidance if needed
+- retain the escalation note as the reference pattern for upstream-provider incidents
+
+## Handover assessment
+
+No immediate platform action is required.
+
+The key operational conclusion is that this was a **dependency-side degraded-service event**, not a host or application outage. Any future recurrence should be assessed first as an upstream provider fault domain unless platform health checks indicate otherwise.
+
+## Related records
+
+- [Incident record](./incident-record.md)
+- [Triage notes](./triage-notes.md)
+- [Stakeholder update](./stakeholder-update.md)
+- [Vendor escalation note](./vendor-escalation-note.md)
+- [Incidents index](../README.md)

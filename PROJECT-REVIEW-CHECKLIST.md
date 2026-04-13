@@ -34,26 +34,26 @@
 - [x] Monitoring docs include relevant screenshots where useful
 
 ## 5. Incident 001 docs
-- [ ] `incident-record.md` exists
-- [ ] `triage-notes.md` exists
-- [ ] `handover-note.md` exists
-- [ ] `stakeholder-update.md` exists
-- [ ] `PRB-001-recurring-memory-growth.md` exists
-- [ ] Incident 001 text matches what actually happened
-- [ ] Commands listed are accurate
-- [ ] Screenshots are embedded correctly
-- [ ] Jira evidence is mentioned
+- [x] `incident-record.md` exists
+- [x] `triage-notes.md` exists
+- [x] `handover-note.md` exists
+- [x] `stakeholder-update.md` exists
+- [x] `PRB-001-recurring-memory-growth.md` exists
+- [x] Incident 001 text matches what actually happened
+- [x] Commands listed are accurate
+- [x] Screenshots are embedded correctly
+- [x] Jira evidence is mentioned
 
 ## 6. Incident 002 docs
-- [ ] `incident-record.md` exists
-- [ ] `triage-notes.md` exists
-- [ ] `handover-note.md` exists
-- [ ] `stakeholder-update.md` exists
-- [ ] `CHG-001-security-group-correction.md` exists
-- [ ] Incident 002 text matches what actually happened
-- [ ] Distinction between local health and external failure is clearly explained
-- [ ] Screenshots are embedded correctly
-- [ ] Jira evidence is mentioned
+- [x] `incident-record.md` exists
+- [x] `triage-notes.md` exists
+- [x] `handover-note.md` exists
+- [x] `stakeholder-update.md` exists
+- [x] `CHG-001-security-group-correction.md` exists
+- [x] Incident 002 text matches what actually happened
+- [x] Distinction between local health and external failure is clearly explained
+- [x] Screenshots are embedded correctly
+- [x] Jira evidence is mentioned
 
 ## 7. Incident 003 docs
 - [ ] `incident-record.md` exists

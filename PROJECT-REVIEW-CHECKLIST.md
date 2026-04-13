@@ -27,11 +27,11 @@
 - [x] Public repo reflects the real working version
 
 ## 4. Monitoring docs
-- [ ] `monitoring/cloudwatch-alarms.md` is complete
-- [ ] `monitoring/alert-scenarios.md` is complete
-- [ ] Alarm names match actual CloudWatch alarms
-- [ ] Monitoring docs mention what each alarm is used for
-- [ ] Monitoring docs include relevant screenshots where useful
+- [x] `monitoring/cloudwatch-alarms.md` is complete
+- [x] `monitoring/alert-scenarios.md` is complete
+- [x] Alarm names match actual CloudWatch alarms
+- [x] Monitoring docs mention what each alarm is used for
+- [x] Monitoring docs include relevant screenshots where useful
 
 ## 5. Incident 001 docs
 - [ ] `incident-record.md` exists

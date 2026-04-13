@@ -3,9 +3,9 @@ Description=Voice API Service
 After=network.target
 
 [Service]
-User=ec2-user
-WorkingDirectory=/opt/cloudops-incident-lab/app/api-service
-ExecStart=/usr/bin/python3 /opt/cloudops-incident-lab/app/api-service/app.py
+User=ubuntu
+WorkingDirectory=/opt/cloudops-incident-lab
+ExecStart=/opt/cloudops-incident-lab/.venv/bin/python /opt/cloudops-incident-lab/app/api-service/app.py
 Restart=always
 RestartSec=5
 Environment=PYTHONUNBUFFERED=1

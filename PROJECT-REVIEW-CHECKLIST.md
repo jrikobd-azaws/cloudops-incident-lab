@@ -20,11 +20,11 @@
 - [x] README is readable from top to bottom without confusion
 
 ## 3. Core technical implementation
-- [ ] `app/api-service/app.py` is present and correct
-- [ ] `app/api-service/requirements.txt` is correct
-- [ ] `app/api-service/systemd/voice-api.service` matches working EC2 version
-- [ ] No incorrect hardcoded paths remain
-- [ ] Public repo reflects the real working version
+- [x] `app/api-service/app.py` is present and correct
+- [x] `app/api-service/requirements.txt` is correct
+- [x] `app/api-service/systemd/voice-api.service` matches working EC2 version
+- [x] No incorrect hardcoded paths remain
+- [x] Public repo reflects the real working version
 
 ## 4. Monitoring docs
 - [ ] `monitoring/cloudwatch-alarms.md` is complete

@@ -1,0 +1,39 @@
+Folder PATH listing for volume System
+Volume serial number is EA75-1DFB
+C:.
+¦   screenshot-tree.txt
+¦   
++---aws-ec2-ubuntu
+¦       aws-ec2-01-instance-running-and-ssh-session.png
+¦       aws-ec2-02-security-group-inbound-rules.png
+¦       aws-ec2-03-manual-flask-app-running.png
+¦       aws-ec2-04-manual-api-validation-browser-and-curl.png
+¦       aws-ec2-05-systemd-service-running.png
+¦       
++---cloudwatch
+¦       CW-01-iam-role-create-trusted-entity.png
+¦       CW-02-iam-role-policy-summary.png
+¦       CW-03-cloudwatch-metric-mem-used-percent.png
+¦       CW-04-ec2-modify-iam-role-menu.png
+¦       CW-05-iam-role-attach-ec2.png
+¦       CW-06-cloudwatch-log-events-app.png
+¦       CW-07-cloudwatch-metric-mem-used-percent.png
+¦       CW-08-cloudwatch-metric-disk-used-percent.png
+¦       CW-09-cloudwatch-agent-status-ec2.png
+¦       
++---cloudwatch-alarms
+¦       01-COIL-EC2-StatusCheckFailed.png
+¦       02-COIL-EC2-HighCPU.png
+¦       03-COIL-App-HighMemory.png
+¦       04-simulated-app-error-filter.png
+¦       05-COIL-App-SimulatedError.png
+¦       06-Configured 4 alarm.png
+¦       
++---jira
+        01-incident-001.png
+        02-CW-HighMem-Alaram.png
+        03-CW-Highmem-alarm-details.png
+        04-ubuntu-mem-updated-status.png
+        05-CW-alarm-back-to-ok.png
+        06-Jira-inc01-resolved.png
+        

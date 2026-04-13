@@ -45,3 +45,9 @@ This approach keeps the project finishable and interview-defendable while still 
 - `COIL-EC2-HighCPU`
 - `COIL-App-HighMemory`
 - `COIL-App-SimulatedError`
+
+## Project management approach
+
+This project was planned and tracked in Jira using epics, tasks, subtasks, incidents, and change records. That structure was used to manage implementation across AWS setup, monitoring, incident scenarios, and documentation rather than treating the project as a one-off demo build.
+
+![Jira project tracking overview](assets/screenshots/jira/jira-project-tracking-overview.png)

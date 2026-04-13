@@ -39,7 +39,7 @@ An IAM role was created for EC2 with the `CloudWatchAgentServerPolicy` policy at
 
 ![IAM role policy summary](../assets/screenshots/cloudwatch-setup/CW-02-iam-role-policy-summary.png)
 
-![Created CloudWatch IAM role](../assets/screenshots/cloudwatch-setup/CW-04-ec2-modify-iam-role-menu.png)
+![Created CloudWatch IAM role](../assets/screenshots/cloudwatch-setup/CW-03-cloudwatch-metric-mem-used-percent.png)
 
 This allows the instance to publish logs and metrics to CloudWatch without embedding credentials on the host.
 

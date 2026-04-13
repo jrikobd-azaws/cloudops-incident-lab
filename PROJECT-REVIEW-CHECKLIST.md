@@ -1,11 +1,11 @@
 # Project Review Checklist
 
 ## 1. Repo structure
-- [ ] Remove folders that are no longer meant to be public
-- [ ] Confirm final public folder structure is clean and intentional
-- [ ] Confirm no duplicate folders exist because of naming mismatches
-- [ ] Confirm screenshot folder naming is consistent
-- [ ] Confirm no empty placeholder folders remain unless truly needed
+- [x] Remove folders that are no longer meant to be public
+- [x] Confirm final public folder structure is clean and intentional
+- [x] Confirm no duplicate folders exist because of naming mismatches
+- [x] Confirm screenshot folder naming is consistent
+- [x] Confirm no empty placeholder folders remain unless truly needed
 
 ## 2. README
 - [ ] Project title is clear

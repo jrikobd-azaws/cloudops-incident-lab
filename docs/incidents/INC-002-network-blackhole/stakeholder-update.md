@@ -1,0 +1,3 @@
+# Stakeholder Update - INC-002
+
+A controlled network-access test was performed against the EC2-hosted API service by removing the inbound security group rule for port 5000. External access failed as expected, while local validation on the server confirmed that the API service remained healthy and active. The issue was resolved by restoring the security group rule, and public access to the `/health` endpoint was successfully recovered.

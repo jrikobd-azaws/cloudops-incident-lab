@@ -8,4 +8,15 @@ A simulated AWS-hosted voice/payment operations lab focused on monitoring, incid
 - INC-003: Voice provider / SIP outage
 
 ## Current status
-Foundation build in progress.
+
+- EC2 Ubuntu instance deployed in AWS
+- API service running under `systemd`
+- CloudWatch logs, metrics, and alarms configured
+- Incident 001 (memory degradation) completed and validated
+
+## Monitoring implemented
+
+- `COIL-EC2-StatusCheckFailed`
+- `COIL-EC2-HighCPU`
+- `COIL-App-HighMemory`
+- `COIL-App-SimulatedError`

@@ -8,16 +8,16 @@
 - [x] Confirm no empty placeholder folders remain unless truly needed
 
 ## 2. README
-- [ ] Project title is clear
-- [ ] One-line project definition is strong
-- [ ] Current status section is accurate
-- [ ] "Why Voice API instead of full telephony platform" is included
-- [ ] "How the API links to the 3 incidents" is included
-- [ ] Monitoring section is included
-- [ ] Repo scope/public scope is explained if needed
-- [ ] Screenshots in README render correctly
-- [ ] README does not mention removed folders or removed scope
-- [ ] README is readable from top to bottom without confusion
+- [x] Project title is clear
+- [x] One-line project definition is strong
+- [x] Current status section is accurate
+- [x] "Why Voice API instead of full telephony platform" is included
+- [x] "How the API links to the 3 incidents" is included
+- [x] Monitoring section is included
+- [x] Repo scope/public scope is explained if needed
+- [x] Screenshots in README render correctly
+- [x] README does not mention removed folders or removed scope
+- [x] README is readable from top to bottom without confusion
 
 ## 3. Core technical implementation
 - [ ] `app/api-service/app.py` is present and correct

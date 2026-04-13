@@ -124,26 +124,29 @@ This supports the service-management side of the portfolio, which is especially 
 
 ## Repository guide
 
-### Application
-- `app/api-service/` — Flask-based Voice API service, dependencies, and service unit
+### Core entry points
 
-### Monitoring
-- `monitoring/cloudwatch-alarms.md` — alarm coverage and purpose
-- `monitoring/alert-scenarios.md` — operational meaning of alerts and immediate checks
+- [API service](./app/api-service/README.md) — Flask-based Voice API service, dependencies, and systemd unit
+- [Monitoring](./monitoring/README.md) — CloudWatch setup, agent integration, custom metrics, and alarm overview
+- [Incident documentation](./docs/incidents/README.md) — incident index and navigation across the three scenarios
 
-### Linux operations
-- `linux-ops/` — service checks, diagnostics, and operational support material
+### Core incidents
 
-### Incident documentation
-- `docs/incidents/INC-001-memory-degradation/`
-- `docs/incidents/INC-002-network-blackhole/`
-- `docs/incidents/INC-003-voice-provider-outage/`
+- [INC-001 — Memory degradation on the app host](./docs/incidents/INC-001-memory-degradation/incident-record.md)
+- [INC-002 — Network blackhole / security group issue](./docs/incidents/INC-002-network-blackhole/incident-record.md)
+- [INC-003 — Voice provider dependency outage](./docs/incidents/INC-003-voice-provider-outage/incident-record.md)
+
+### Monitoring documents
+
+- [CloudWatch alarms](./monitoring/cloudwatch-alarms.md) — alarm configuration, thresholds, and operational meaning
+- [Alert scenarios](./monitoring/alert-scenarios.md) — first-line triage guidance for the main alert conditions
 
 ### Linked operational records
-- `docs/problem-records/`
-- `docs/change-records/`
-- `docs/service-requests/`
-- `docs/itil-framework/`
+
+- [Problem records](./docs/problem-records/)
+- [Change records](./docs/change-records/)
+- [Service requests](./docs/service-requests/)
+- [ITIL framework](./docs/itil-framework/)
 
 ## Incident evidence
 
@@ -168,15 +171,18 @@ This repository is intended to demonstrate the kind of work expected in cloud/pl
 - escalating dependencies clearly
 - documenting actions, outcomes, and lessons learned
 
-## Next reading path
+## Recommended reading path
 
 A recruiter or hiring manager can review the project in this order:
 
-1. This README for the overview
-2. `monitoring/cloudwatch-alarms.md`
-3. `docs/incidents/INC-001-memory-degradation/incident-record.md`
-4. `docs/incidents/INC-002-network-blackhole/incident-record.md`
-5. `docs/incidents/INC-003-voice-provider-outage/incident-record.md`
+1. Start with this README for the overview
+2. Review [Monitoring](./monitoring/README.md)
+3. Review [API service](./app/api-service/README.md)
+4. Review [INC-001 incident record](./docs/incidents/INC-001-memory-degradation/incident-record.md)
+5. Review [INC-002 incident record](./docs/incidents/INC-002-network-blackhole/incident-record.md)
+6. Review [INC-003 incident record](./docs/incidents/INC-003-voice-provider-outage/incident-record.md)
+
+This reading order is intended to make the project easy to assess from architecture, monitoring, and implementation through to incident handling and operational documentation.
 
 ## Note on screenshots
 

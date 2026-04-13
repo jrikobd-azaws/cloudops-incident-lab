@@ -58,7 +58,13 @@ Controlled memory pressure was generated on the EC2-hosted API service to valida
 
 The incident successfully validated memory-based detection, alarm state transition, Linux triage workflow, and service continuity checks. Memory pressure was visible at the host level, the API remained available, and the alarm returned to `OK` once the controlled stress ended.
 
-## Linked records
+## Related records
 
-- **Problem record:** `PRB-001-recurring-memory-growth`
-- **Jira issue:** `INC-001 Memory degradation on Linux API service`
+- [Triage notes](./triage-notes.md)
+- [Handover note](./handover-note.md)
+- [Stakeholder update](./stakeholder-update.md)
+- [Problem record — PRB-001 recurring memory growth](../../problem-records/PRB-001-recurring-memory-growth.md)
+- [Monitoring README](../../../monitoring/README.md)
+- [CloudWatch alarms](../../../monitoring/cloudwatch-alarms.md)
+- [Alert scenarios](../../../monitoring/alert-scenarios.md)
+- [Incidents index](../README.md)

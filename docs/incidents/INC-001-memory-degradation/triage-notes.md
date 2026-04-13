@@ -41,3 +41,13 @@ This is operationally important because an instance can remain technically up wh
 ## Triage conclusion
 
 The alarm was valid, the host showed elevated memory pressure, and the service remained reachable throughout the test. The event confirmed that CloudWatch detection, Linux validation, and service-level checks worked as expected for a memory-related incident scenario.
+
+## Related records
+
+- [Incident record](./incident-record.md)
+- [Handover note](./handover-note.md)
+- [Stakeholder update](./stakeholder-update.md)
+- [Problem record — PRB-001 recurring memory growth](../../problem-records/PRB-001-recurring-memory-growth.md)
+- [CloudWatch alarms](../../../monitoring/cloudwatch-alarms.md)
+- [Alert scenarios](../../../monitoring/alert-scenarios.md)
+- [Incidents index](../README.md)

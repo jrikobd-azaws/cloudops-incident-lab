@@ -51,3 +51,5 @@ The alarm was valid, the host showed elevated memory pressure, and the service r
 - [CloudWatch alarms](../../../monitoring/cloudwatch-alarms.md)
 - [Alert scenarios](../../../monitoring/alert-scenarios.md)
 - [Incidents index](../README.md)
+- [Linux operations](../../../linux-ops/README.md)
+- [Linux troubleshooting cheat sheet](../../../linux-ops/linux-troubleshooting-cheat-sheet.md)

@@ -62,3 +62,5 @@ The incident confirmed that the platform remained healthy while the service degr
 - [Stakeholder update](./stakeholder-update.md)
 - [Vendor escalation note](./vendor-escalation-note.md)
 - [Incidents index](../README.md)
+- [Linux operations](../../../linux-ops/README.md)
+- [Linux troubleshooting cheat sheet](../../../linux-ops/linux-troubleshooting-cheat-sheet.md)

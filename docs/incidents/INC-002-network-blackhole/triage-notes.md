@@ -67,3 +67,5 @@ The incident confirmed that the application and host remained healthy while the 
 - [CloudWatch alarms](../../../monitoring/cloudwatch-alarms.md)
 - [Alert scenarios](../../../monitoring/alert-scenarios.md)
 - [Incidents index](../README.md)
+- [Linux operations](../../../linux-ops/README.md)
+- [Linux troubleshooting cheat sheet](../../../linux-ops/linux-troubleshooting-cheat-sheet.md)

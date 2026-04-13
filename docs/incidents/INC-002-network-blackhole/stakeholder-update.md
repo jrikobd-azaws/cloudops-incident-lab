@@ -39,3 +39,6 @@ The incident is closed. Follow-up improvement ideas, including future external h
 - [Change record — CHG-001 Security group correction](../../change-records/CHG-001-security-group-correction.md)
 - [CloudWatch alarms](../../../monitoring/cloudwatch-alarms.md)
 - [Incidents index](../README.md)
+- [ITIL framework and operational process notes](../../../docs/itil-framework/README.md)
+- [Handover template](../../../docs/itil-framework/handover-template.md)
+- [Escalation matrix](../../../docs/itil-framework/escalation-matrix.md)

@@ -81,3 +81,16 @@ curl http://127.0.0.1:5000/
 curl http://127.0.0.1:5000/health
 curl -i http://127.0.0.1:5000/simulate-error
 systemctl status voice-api --no-pager
+
+```
+## Related project areas
+
+- [Main README](../../README.md)
+- [Monitoring README](../../monitoring/README.md)
+- [Linux operations](../../linux-ops/README.md)
+- [Linux troubleshooting cheat sheet](../../linux-ops/linux-troubleshooting-cheat-sheet.md)
+- [Incident documentation](../../docs/incidents/README.md)
+- [ITIL framework and operational process notes](../../docs/itil-framework/README.md)
+- [INC-001 incident record](../../docs/incidents/INC-001-memory-degradation/incident-record.md)
+- [INC-002 incident record](../../docs/incidents/INC-002-network-blackhole/incident-record.md)
+- [INC-003 incident record](../../docs/incidents/INC-003-voice-provider-outage/incident-record.md)

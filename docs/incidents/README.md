@@ -76,3 +76,11 @@ The aim of this section is to show that operational work is not just about findi
 1. [`INC-001-memory-degradation/incident-record.md`](./INC-001-memory-degradation/incident-record.md)
 2. [`INC-002-network-blackhole/incident-record.md`](./INC-002-network-blackhole/incident-record.md)
 3. [`INC-003-voice-provider-outage/incident-record.md`](./INC-003-voice-provider-outage/incident-record.md)
+
+## Related areas
+
+- [Main README](../../README.md)
+- [Monitoring README](../../monitoring/README.md)
+- [API service README](../../app/api-service/README.md)
+- [Linux operations](../../linux-ops/README.md)
+- [ITIL framework and operational process notes](../itil-framework/README.md)

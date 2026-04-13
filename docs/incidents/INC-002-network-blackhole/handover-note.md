@@ -46,3 +46,6 @@ No immediate operational action is required. The incident is resolved, the servi
 - [CloudWatch alarms](../../../monitoring/cloudwatch-alarms.md)
 - [Alert scenarios](../../../monitoring/alert-scenarios.md)
 - [Incidents index](../README.md)
+- [ITIL framework and operational process notes](../../../docs/itil-framework/README.md)
+- [Handover template](../../../docs/itil-framework/handover-template.md)
+- [Escalation matrix](../../../docs/itil-framework/escalation-matrix.md)

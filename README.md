@@ -128,7 +128,9 @@ This supports the service-management side of the portfolio, which is especially 
 
 - [API service](./app/api-service/README.md) — Flask-based Voice API service, dependencies, and systemd unit
 - [Monitoring](./monitoring/README.md) — CloudWatch setup, agent integration, custom metrics, and alarm overview
+- [Linux operations](./linux-ops/README.md) — Linux troubleshooting notes and first-line service validation
 - [Incident documentation](./docs/incidents/README.md) — incident index and navigation across the three scenarios
+- [ITIL framework and operational process notes](./docs/itil-framework/README.md) — Jira workflow, severity, escalation, and handover guidance
 
 ### Core incidents
 
@@ -146,7 +148,7 @@ This supports the service-management side of the portfolio, which is especially 
 - [Problem records](./docs/problem-records/)
 - [Change records](./docs/change-records/)
 - [Service requests](./docs/service-requests/)
-- [ITIL framework](./docs/itil-framework/)
+- [ITIL framework](./docs/itil-framework/README.md)
 
 ## Incident evidence
 

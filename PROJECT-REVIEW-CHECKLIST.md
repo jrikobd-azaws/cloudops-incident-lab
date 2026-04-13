@@ -56,15 +56,15 @@
 - [x] Jira evidence is mentioned
 
 ## 7. Incident 003 docs
-- [ ] `incident-record.md` exists
-- [ ] `triage-notes.md` exists
-- [ ] `handover-note.md` exists
-- [ ] `stakeholder-update.md` exists
-- [ ] Vendor/dependency escalation angle is clearly explained
-- [ ] "platform up, service degraded" is clearly stated
-- [ ] Simulated voice dependency logs are explained properly
-- [ ] Screenshots are embedded correctly
-- [ ] Jira evidence is mentioned
+- [x] `incident-record.md` exists
+- [x] `triage-notes.md` exists
+- [x] `handover-note.md` exists
+- [x] `stakeholder-update.md` exists
+- [x] Vendor/dependency escalation angle is clearly explained
+- [x] "platform up, service degraded" is clearly stated
+- [x] Simulated voice dependency logs are explained properly
+- [x] Screenshots are embedded correctly
+- [x] Jira evidence is mentioned
 
 ## 8. Jira/process/docs review
 - [ ] Jira screenshots support the repo rather than overwhelm it

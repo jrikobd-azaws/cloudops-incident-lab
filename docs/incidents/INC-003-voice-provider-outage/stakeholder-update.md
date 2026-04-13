@@ -1,0 +1,3 @@
+# Stakeholder Update - INC-003
+
+A simulated upstream voice-provider degradation was introduced to validate operational triage and escalation procedures. Provider-style registration failures and `503 Service Unavailable` responses were observed, while the EC2 host and `voice-api` platform remained healthy throughout the event. The scenario was classified as a dependency-side service degradation rather than an internal platform outage, and the validation exercise has been completed successfully.

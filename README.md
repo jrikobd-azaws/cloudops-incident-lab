@@ -36,6 +36,8 @@ This approach keeps the project finishable and interview-defendable while still 
 - API service running under `systemd`
 - CloudWatch logs, metrics, and alarms configured
 - Incident 001 (memory degradation) completed and validated
+- Incident 002 (memory degradation) completed and validated
+- Incident 003 (memory degradation) completed and validated
 
 ## Monitoring implemented
 

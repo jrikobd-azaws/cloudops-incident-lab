@@ -145,14 +145,18 @@ This supports the service-management side of the portfolio, which is especially 
 
 ### Linked operational records
 
+- [Alert interpretation guide](./docs/alert-interpretation-guide.md)
+- [Communication templates](./docs/communication-templates.md)
+- [PCI DSS operational controls](./docs/pci-dss-operational-controls.md)
+- [Resilience design](./docs/resilience-design.md)
+- [Disaster recovery runbook](./docs/disaster-recovery-runbook.md)
 - [Problem records](./docs/problem-records/)
 - [Change records](./docs/change-records/)
 - [Service requests](./docs/service-requests/)
-- [ITIL framework](./docs/itil-framework/README.md)
 
 ## Incident evidence
 
-Each incident folder contains structured operational evidence such as:
+Each incident folder contains a structured operational evidence pack, including:
 
 - incident record
 - triage notes
@@ -160,6 +164,8 @@ Each incident folder contains structured operational evidence such as:
 - stakeholder update
 - linked problem, change, or escalation records where relevant
 - screenshots showing alarm state, failure condition, recovery state, and Jira tracking
+
+This keeps the main README concise while preserving the detailed incident proof in the relevant incident folders.
 
 ## Why this project fits platform operations roles
 
@@ -180,9 +186,11 @@ A recruiter or hiring manager can review the project in this order:
 1. Start with this README for the overview
 2. Review [Monitoring](./monitoring/README.md)
 3. Review [API service](./app/api-service/README.md)
-4. Review [INC-001 incident record](./docs/incidents/INC-001-memory-degradation/incident-record.md)
-5. Review [INC-002 incident record](./docs/incidents/INC-002-network-blackhole/incident-record.md)
-6. Review [INC-003 incident record](./docs/incidents/INC-003-voice-provider-outage/incident-record.md)
+4. Review [Linux operations](./linux-ops/README.md)
+5. Review [INC-001 incident record](./docs/incidents/INC-001-memory-degradation/incident-record.md)
+6. Review [INC-002 incident record](./docs/incidents/INC-002-network-blackhole/incident-record.md)
+7. Review [INC-003 incident record](./docs/incidents/INC-003-voice-provider-outage/incident-record.md)
+8. Review [ITIL framework and operational process notes](./docs/itil-framework/README.md)
 
 This reading order is intended to make the project easy to assess from architecture, monitoring, and implementation through to incident handling and operational documentation.
 
